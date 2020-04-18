@@ -2,6 +2,37 @@
 
 ### Objective: Creating a a yaml file for the app from the previous assignment in the format specified by the tool of choice. Use Travis CI (https://travis-ci.com/) in conjunction with my GitHub repo
 
+----------------------------------------------------------------------------------------------------------------------------
+### Job Log in Travis CI
+    1   Worker information
+              
+              
+    7   Build system information
+              
+              
+    173 Installing openjdk8
+              
+    175 $ git clone --depth=50 --branch=master https://github.com/hiuwing0107/Assignment10--CISC3140.git 
+        hiuwing0107/Assignment10--CISC3140
+              
+              
+    186 $ java -Xmx32m -version
+    187 openjdk version "1.8.0_242"
+    188 OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~16.04-b08)
+    189 OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+    190 $ javac -J-Xmx32m -version
+    191 javac 1.8.0_242
+    192 $ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+              
+              
+    836 $ true
+    837 The command "true" exited with 0.
+             
+    840 Done. Your build exited with 0.
+
+----------------------------------------------------------------------------------------------------------------------------
+### Command Line 
+
 #### Hiude-MacBook-Pro:~ hiuwing.l$ git init
     Initialized empty Git repository in /Users/hiuwing.l/.git/
     
@@ -88,34 +119,6 @@
     To https://github.com/hiuwing0107/Assignment10--CISC3140.git
      * [new branch]      travis -> travis
      
-----------------------------------------------------------------------------------------------------------------------------
-### Job Log in Travis CI
-    1   Worker information
-              
-              
-    7   Build system information
-              
-              
-    173 Installing openjdk8
-              
-    175 $ git clone --depth=50 --branch=master https://github.com/hiuwing0107/Assignment10--CISC3140.git 
-        hiuwing0107/Assignment10--CISC3140
-              
-              
-    186 $ java -Xmx32m -version
-    187 openjdk version "1.8.0_242"
-    188 OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~16.04-b08)
-    189 OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
-    190 $ javac -J-Xmx32m -version
-    191 javac 1.8.0_242
-    192 $ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-              
-              
-    836 $ true
-    837 The command "true" exited with 0.
-              
-    840 Done. Your build exited with 0.
-
 ----------------------------------------------------------------------------------------------------------------------------
 CISC 3140 - Design and Implementation
 
