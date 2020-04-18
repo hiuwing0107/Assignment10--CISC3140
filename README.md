@@ -1,6 +1,6 @@
 # Assignment10--CISC3140
 
-### Objective: Set up an automated deployment strategy. This sounds more complicated than it really is, which is creating a a yaml file for your app from the previous assignment in the format specified by your tool of choice. The ultimate goal is to deploy your app to a server somewhere, such as Google App Engine (GAE), Heroku, etc.
+### Objective: Creating a a yaml file for the app from the previous assignment in the format specified by the tool of choice. Use Travis CI (https://travis-ci.com/) in conjunction with my GitHub repo
 
 #### Hiude-MacBook-Pro:~ hiuwing.l$ git init
     Initialized empty Git repository in /Users/hiuwing.l/.git/
