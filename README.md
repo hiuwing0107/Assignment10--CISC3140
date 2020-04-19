@@ -3,7 +3,9 @@
 ### Objective: Creating a a yaml file for the app from the previous assignment in the format specified by the tool of choice. Use Travis CI (https://travis-ci.com/) in conjunction with my GitHub repo
 
 ----------------------------------------------------------------------------------------------------------------------------
-### Job Log in Travis CI (https://travis-ci.com/github/hiuwing0107/Assignment10--CISC3140/jobs/320669617)
+### Job Log in Travis CI  
+(https://travis-ci.com/github/hiuwing0107/Assignment10--CISC3140/jobs/320669617)
+    
     1   Worker information
               
               
